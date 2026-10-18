@@ -1,0 +1,34 @@
+{"seq":1,"ms":0,"actor":"SYSTEM","state":"started","detail":"rw-semaphore"}
+{"seq":2,"ms":0,"actor":"R0","state":"waiting","detail":"request access"}
+{"seq":3,"ms":0,"actor":"R0","state":"reading","detail":"value=10"}
+{"seq":4,"ms":35,"actor":"R1","state":"waiting","detail":"request access"}
+{"seq":5,"ms":35,"actor":"R1","state":"reading","detail":"value=10"}
+{"seq":6,"ms":50,"actor":"W0","state":"waiting","detail":"request exclusive write"}
+{"seq":7,"ms":70,"actor":"R2","state":"waiting","detail":"request access"}
+{"seq":8,"ms":105,"actor":"R3","state":"waiting","detail":"request access"}
+{"seq":9,"ms":116,"actor":"W1","state":"waiting","detail":"request exclusive write"}
+{"seq":10,"ms":135,"actor":"R0","state":"leaving","detail":"reader leaving"}
+{"seq":11,"ms":135,"actor":"R0","state":"finished","detail":"read complete"}
+{"seq":12,"ms":140,"actor":"R4","state":"waiting","detail":"request access"}
+{"seq":13,"ms":170,"actor":"R1","state":"leaving","detail":"reader leaving"}
+{"seq":14,"ms":171,"actor":"R1","state":"finished","detail":"read complete"}
+{"seq":15,"ms":171,"actor":"W0","state":"writing","detail":"value=11"}
+{"seq":16,"ms":181,"actor":"W2","state":"waiting","detail":"request exclusive write"}
+{"seq":17,"ms":316,"actor":"W0","state":"leaving","detail":"writer leaving"}
+{"seq":18,"ms":316,"actor":"W0","state":"finished","detail":"write complete"}
+{"seq":19,"ms":316,"actor":"R3","state":"reading","detail":"value=11"}
+{"seq":20,"ms":316,"actor":"R2","state":"reading","detail":"value=11"}
+{"seq":21,"ms":452,"actor":"R3","state":"leaving","detail":"reader leaving"}
+{"seq":22,"ms":452,"actor":"R3","state":"finished","detail":"read complete"}
+{"seq":23,"ms":452,"actor":"R2","state":"leaving","detail":"reader leaving"}
+{"seq":24,"ms":452,"actor":"R2","state":"finished","detail":"read complete"}
+{"seq":25,"ms":452,"actor":"W1","state":"writing","detail":"value=12"}
+{"seq":26,"ms":597,"actor":"W1","state":"leaving","detail":"writer leaving"}
+{"seq":27,"ms":597,"actor":"W1","state":"finished","detail":"write complete"}
+{"seq":28,"ms":597,"actor":"R4","state":"reading","detail":"value=12"}
+{"seq":29,"ms":733,"actor":"R4","state":"leaving","detail":"reader leaving"}
+{"seq":30,"ms":733,"actor":"R4","state":"finished","detail":"read complete"}
+{"seq":31,"ms":733,"actor":"W2","state":"writing","detail":"value=13"}
+{"seq":32,"ms":878,"actor":"W2","state":"leaving","detail":"writer leaving"}
+{"seq":33,"ms":878,"actor":"W2","state":"finished","detail":"write complete"}
+{"seq":34,"ms":878,"actor":"SYSTEM","state":"complete","detail":"simulation finished"}

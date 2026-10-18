@@ -1,0 +1,26 @@
+{"seq":1,"ms":0,"actor":"SYSTEM","state":"started","detail":"rw-monitor"}
+{"seq":2,"ms":2,"actor":"R0","state":"waiting","detail":"queued for read"}
+{"seq":3,"ms":2,"actor":"R0","state":"reading","detail":"value=10"}
+{"seq":4,"ms":37,"actor":"R1","state":"waiting","detail":"queued for read"}
+{"seq":5,"ms":38,"actor":"R1","state":"reading","detail":"value=10"}
+{"seq":6,"ms":53,"actor":"W0","state":"waiting","detail":"queued for write"}
+{"seq":7,"ms":75,"actor":"R2","state":"waiting","detail":"queued for read"}
+{"seq":8,"ms":107,"actor":"R3","state":"waiting","detail":"queued for read"}
+{"seq":9,"ms":117,"actor":"W1","state":"waiting","detail":"queued for write"}
+{"seq":10,"ms":138,"actor":"R0","state":"finished","detail":"read complete"}
+{"seq":11,"ms":143,"actor":"R4","state":"waiting","detail":"queued for read"}
+{"seq":12,"ms":173,"actor":"R1","state":"finished","detail":"read complete"}
+{"seq":13,"ms":174,"actor":"W0","state":"writing","detail":"value=11"}
+{"seq":14,"ms":183,"actor":"W2","state":"waiting","detail":"queued for write"}
+{"seq":15,"ms":319,"actor":"W0","state":"finished","detail":"write complete"}
+{"seq":16,"ms":319,"actor":"R3","state":"reading","detail":"value=11"}
+{"seq":17,"ms":320,"actor":"R2","state":"reading","detail":"value=11"}
+{"seq":18,"ms":455,"actor":"R3","state":"finished","detail":"read complete"}
+{"seq":19,"ms":455,"actor":"R2","state":"finished","detail":"read complete"}
+{"seq":20,"ms":455,"actor":"W1","state":"writing","detail":"value=12"}
+{"seq":21,"ms":600,"actor":"W1","state":"finished","detail":"write complete"}
+{"seq":22,"ms":601,"actor":"R4","state":"reading","detail":"value=12"}
+{"seq":23,"ms":736,"actor":"R4","state":"finished","detail":"read complete"}
+{"seq":24,"ms":737,"actor":"W2","state":"writing","detail":"value=13"}
+{"seq":25,"ms":882,"actor":"W2","state":"finished","detail":"write complete"}
+{"seq":26,"ms":882,"actor":"SYSTEM","state":"complete","detail":"simulation finished"}

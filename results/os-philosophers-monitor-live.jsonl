@@ -1,0 +1,110 @@
+{"seq":1,"ms":0,"actor":"SYSTEM","state":"started","detail":"philosophers-monitor"}
+{"seq":2,"ms":2,"actor":"P3","state":"thinking","detail":"round=1"}
+{"seq":3,"ms":2,"actor":"P0","state":"thinking","detail":"round=1"}
+{"seq":4,"ms":2,"actor":"P1","state":"thinking","detail":"round=1"}
+{"seq":5,"ms":2,"actor":"P2","state":"thinking","detail":"round=1"}
+{"seq":6,"ms":67,"actor":"P0","state":"hungry","detail":"atomic pair requested"}
+{"seq":7,"ms":68,"actor":"F0","state":"held","detail":"P0"}
+{"seq":8,"ms":68,"actor":"F1","state":"held","detail":"P0"}
+{"seq":9,"ms":68,"actor":"P0","state":"eating","detail":"round=1"}
+{"seq":10,"ms":85,"actor":"P1","state":"hungry","detail":"atomic pair requested"}
+{"seq":11,"ms":102,"actor":"P2","state":"hungry","detail":"atomic pair requested"}
+{"seq":12,"ms":102,"actor":"F2","state":"held","detail":"P2"}
+{"seq":13,"ms":102,"actor":"F3","state":"held","detail":"P2"}
+{"seq":14,"ms":102,"actor":"P2","state":"eating","detail":"round=1"}
+{"seq":15,"ms":118,"actor":"P3","state":"hungry","detail":"atomic pair requested"}
+{"seq":16,"ms":173,"actor":"P0","state":"releasing","detail":"returning chopsticks"}
+{"seq":17,"ms":173,"actor":"F0","state":"free","detail":"P0"}
+{"seq":18,"ms":173,"actor":"F1","state":"free","detail":"P0"}
+{"seq":19,"ms":173,"actor":"P0","state":"finished","detail":"round=1"}
+{"seq":20,"ms":173,"actor":"P0","state":"thinking","detail":"round=2"}
+{"seq":21,"ms":207,"actor":"P2","state":"releasing","detail":"returning chopsticks"}
+{"seq":22,"ms":207,"actor":"F2","state":"free","detail":"P2"}
+{"seq":23,"ms":207,"actor":"F3","state":"free","detail":"P2"}
+{"seq":24,"ms":207,"actor":"P2","state":"finished","detail":"round=1"}
+{"seq":25,"ms":207,"actor":"P2","state":"thinking","detail":"round=2"}
+{"seq":26,"ms":207,"actor":"F1","state":"held","detail":"P1"}
+{"seq":27,"ms":207,"actor":"F2","state":"held","detail":"P1"}
+{"seq":28,"ms":207,"actor":"P1","state":"eating","detail":"round=1"}
+{"seq":29,"ms":207,"actor":"F3","state":"held","detail":"P3"}
+{"seq":30,"ms":207,"actor":"F0","state":"held","detail":"P3"}
+{"seq":31,"ms":207,"actor":"P3","state":"eating","detail":"round=1"}
+{"seq":32,"ms":238,"actor":"P0","state":"hungry","detail":"atomic pair requested"}
+{"seq":33,"ms":306,"actor":"P2","state":"hungry","detail":"atomic pair requested"}
+{"seq":34,"ms":312,"actor":"P1","state":"releasing","detail":"returning chopsticks"}
+{"seq":35,"ms":312,"actor":"F1","state":"free","detail":"P1"}
+{"seq":36,"ms":312,"actor":"F2","state":"free","detail":"P1"}
+{"seq":37,"ms":312,"actor":"P3","state":"releasing","detail":"returning chopsticks"}
+{"seq":38,"ms":313,"actor":"F3","state":"free","detail":"P3"}
+{"seq":39,"ms":313,"actor":"F0","state":"free","detail":"P3"}
+{"seq":40,"ms":313,"actor":"P3","state":"finished","detail":"round=1"}
+{"seq":41,"ms":313,"actor":"P3","state":"thinking","detail":"round=2"}
+{"seq":42,"ms":313,"actor":"P1","state":"finished","detail":"round=1"}
+{"seq":43,"ms":313,"actor":"P1","state":"thinking","detail":"round=2"}
+{"seq":44,"ms":313,"actor":"F0","state":"held","detail":"P0"}
+{"seq":45,"ms":313,"actor":"F1","state":"held","detail":"P0"}
+{"seq":46,"ms":313,"actor":"P0","state":"eating","detail":"round=2"}
+{"seq":47,"ms":313,"actor":"F2","state":"held","detail":"P2"}
+{"seq":48,"ms":313,"actor":"F3","state":"held","detail":"P2"}
+{"seq":49,"ms":313,"actor":"P2","state":"eating","detail":"round=2"}
+{"seq":50,"ms":395,"actor":"P1","state":"hungry","detail":"atomic pair requested"}
+{"seq":51,"ms":418,"actor":"P0","state":"releasing","detail":"returning chopsticks"}
+{"seq":52,"ms":418,"actor":"F0","state":"free","detail":"P0"}
+{"seq":53,"ms":418,"actor":"F1","state":"free","detail":"P0"}
+{"seq":54,"ms":418,"actor":"P2","state":"releasing","detail":"returning chopsticks"}
+{"seq":55,"ms":418,"actor":"F2","state":"free","detail":"P2"}
+{"seq":56,"ms":418,"actor":"F3","state":"free","detail":"P2"}
+{"seq":57,"ms":418,"actor":"P0","state":"finished","detail":"round=2"}
+{"seq":58,"ms":418,"actor":"F1","state":"held","detail":"P1"}
+{"seq":59,"ms":418,"actor":"F2","state":"held","detail":"P1"}
+{"seq":60,"ms":418,"actor":"P1","state":"eating","detail":"round=2"}
+{"seq":61,"ms":418,"actor":"P2","state":"finished","detail":"round=2"}
+{"seq":62,"ms":418,"actor":"P2","state":"thinking","detail":"round=3"}
+{"seq":63,"ms":418,"actor":"P0","state":"thinking","detail":"round=3"}
+{"seq":64,"ms":429,"actor":"P3","state":"hungry","detail":"atomic pair requested"}
+{"seq":65,"ms":429,"actor":"F3","state":"held","detail":"P3"}
+{"seq":66,"ms":429,"actor":"F0","state":"held","detail":"P3"}
+{"seq":67,"ms":429,"actor":"P3","state":"eating","detail":"round=2"}
+{"seq":68,"ms":483,"actor":"P0","state":"hungry","detail":"atomic pair requested"}
+{"seq":69,"ms":517,"actor":"P2","state":"hungry","detail":"atomic pair requested"}
+{"seq":70,"ms":523,"actor":"P1","state":"releasing","detail":"returning chopsticks"}
+{"seq":71,"ms":523,"actor":"F1","state":"free","detail":"P1"}
+{"seq":72,"ms":523,"actor":"F2","state":"free","detail":"P1"}
+{"seq":73,"ms":523,"actor":"P1","state":"finished","detail":"round=2"}
+{"seq":74,"ms":523,"actor":"P1","state":"thinking","detail":"round=3"}
+{"seq":75,"ms":534,"actor":"P3","state":"releasing","detail":"returning chopsticks"}
+{"seq":76,"ms":534,"actor":"F3","state":"free","detail":"P3"}
+{"seq":77,"ms":534,"actor":"F0","state":"free","detail":"P3"}
+{"seq":78,"ms":534,"actor":"P3","state":"finished","detail":"round=2"}
+{"seq":79,"ms":534,"actor":"P3","state":"thinking","detail":"round=3"}
+{"seq":80,"ms":534,"actor":"F0","state":"held","detail":"P0"}
+{"seq":81,"ms":534,"actor":"F1","state":"held","detail":"P0"}
+{"seq":82,"ms":534,"actor":"P0","state":"eating","detail":"round=3"}
+{"seq":83,"ms":534,"actor":"F2","state":"held","detail":"P2"}
+{"seq":84,"ms":534,"actor":"F3","state":"held","detail":"P2"}
+{"seq":85,"ms":534,"actor":"P2","state":"eating","detail":"round=3"}
+{"seq":86,"ms":606,"actor":"P1","state":"hungry","detail":"atomic pair requested"}
+{"seq":87,"ms":639,"actor":"P0","state":"releasing","detail":"returning chopsticks"}
+{"seq":88,"ms":639,"actor":"F0","state":"free","detail":"P0"}
+{"seq":89,"ms":639,"actor":"P2","state":"releasing","detail":"returning chopsticks"}
+{"seq":90,"ms":639,"actor":"F1","state":"free","detail":"P0"}
+{"seq":91,"ms":639,"actor":"P0","state":"finished","detail":"round=3"}
+{"seq":92,"ms":640,"actor":"F2","state":"free","detail":"P2"}
+{"seq":93,"ms":640,"actor":"F3","state":"free","detail":"P2"}
+{"seq":94,"ms":640,"actor":"P2","state":"finished","detail":"round=3"}
+{"seq":95,"ms":640,"actor":"F1","state":"held","detail":"P1"}
+{"seq":96,"ms":640,"actor":"F2","state":"held","detail":"P1"}
+{"seq":97,"ms":640,"actor":"P1","state":"eating","detail":"round=3"}
+{"seq":98,"ms":650,"actor":"P3","state":"hungry","detail":"atomic pair requested"}
+{"seq":99,"ms":650,"actor":"F3","state":"held","detail":"P3"}
+{"seq":100,"ms":650,"actor":"F0","state":"held","detail":"P3"}
+{"seq":101,"ms":650,"actor":"P3","state":"eating","detail":"round=3"}
+{"seq":102,"ms":745,"actor":"P1","state":"releasing","detail":"returning chopsticks"}
+{"seq":103,"ms":745,"actor":"F1","state":"free","detail":"P1"}
+{"seq":104,"ms":745,"actor":"F2","state":"free","detail":"P1"}
+{"seq":105,"ms":745,"actor":"P1","state":"finished","detail":"round=3"}
+{"seq":106,"ms":755,"actor":"P3","state":"releasing","detail":"returning chopsticks"}
+{"seq":107,"ms":756,"actor":"F3","state":"free","detail":"P3"}
+{"seq":108,"ms":756,"actor":"F0","state":"free","detail":"P3"}
+{"seq":109,"ms":756,"actor":"P3","state":"finished","detail":"round=3"}
+{"seq":110,"ms":756,"actor":"SYSTEM","state":"complete","detail":"simulation finished"}

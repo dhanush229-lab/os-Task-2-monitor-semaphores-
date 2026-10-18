@@ -1,0 +1,4 @@
+philosophers-semaphore: PASS | 110 events | 845 ms
+philosophers-monitor: PASS | 110 events | 757 ms
+rw-semaphore: PASS | 34 events | 884 ms
+rw-monitor: PASS | 26 events | 882 ms
